@@ -1,0 +1,17 @@
+{
+  "name": "youtubelivechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "livechat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dustin Watts <dustin_watts@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3"
+  }
+}
