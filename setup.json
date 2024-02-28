@@ -1,0 +1,10 @@
+{
+  "twitch": {
+    "channels": [""]
+  },
+  "youtube": {
+    "api_key": "",
+    "live_chat_id": "",
+    "interval": 20000
+  }
+}
