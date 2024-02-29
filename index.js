@@ -27,9 +27,6 @@ async function handleMessageTwitch(displayName, messageText) {
 
 const {} = require("./youtube-chat/livechat.js");
 
-fetchYoutubeMessages();
-setInterval(fetchYoutubeMessages, interval);
-
 async function fetchYoutubeMessages() {
   const { getLiveChatMessages } = require("./youtube-chat/livechat.js");
 
@@ -43,3 +40,6 @@ async function handleMessageYoutube(channelName, messageText) {
   const formattedMessage = `${chalk.red(channelName)}: ${messageText}`;
   console.log(formattedMessage);
 }
+
+fetchYoutubeMessages();
+setInterval(fetchYoutubeMessages, interval);
